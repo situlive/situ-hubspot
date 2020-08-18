@@ -27,14 +27,17 @@
     min-height: 500px;
 }
 
-.form-container .section,
-.form-container .img-header {
-    width: 1068px;
-}
+@media screen and (min-width: 1418px) {
 
-.form-container .section-jade {
-    position: absolute;
-    top: 0;
-    left: 818px;
-    width: 500px;
+    .form-container .section,
+    .form-container .img-header {
+        width: 1068px;
+    }
+
+    .form-container .section-jade {
+        position: absolute;
+        top: 0;
+        left: 818px;
+        width: 500px;
+    }
 }

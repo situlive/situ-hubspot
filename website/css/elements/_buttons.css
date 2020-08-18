@@ -7,6 +7,13 @@
   font-size: 24px;
 }
 
+@media screen and (max-width: 481px) {
+  .btn {
+    width: 100%;
+    display: block;
+  }
+}
+
 .btn-secondary {
   background-color: #00c8b7;
   border-color: #00c8b7;
