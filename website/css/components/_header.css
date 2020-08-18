@@ -1,7 +1,11 @@
 /* Header container */
 
 .header {
-  background-color: #F8FAFC;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent !important;
 }
 
 .header__container {
@@ -55,8 +59,12 @@
   margin-top: 7px;
 }
 
-.header__logo--main {
-  padding-top: 20px;
+.header__logo svg {
+  height: 76px;
+}
+
+.header__logo svg path {
+  fill: #081d4d;
 }
 
 /* Search bar */
@@ -256,10 +264,10 @@
 
 @media (max-width: 767px) {
   .header__container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 20px 0 0;
   }
 
