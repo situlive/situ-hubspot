@@ -1,0 +1,19 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-dark {
+    background-color: #081d4d;
+    color: white;
+}
+
+.section-jade {
+    background-color: #00c8b7;
+    color: white;
+}
+
+.section-grey {
+    background-color: #f6f6f6;
+    color: #081d4d;
+}
