@@ -7,8 +7,6 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-
-          {# Header logo column #}
           <a class="logo float-left" href="/">
             <svg viewBox="0 0 165 22" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -16,36 +14,9 @@
                 fill="#FFF" fill-rule="evenodd" />
             </svg>
           </a>
-          {# End header logo column #}
-
-          {# Header navigation column #}
-
-          {# Header navigation row one #}
-          {% if content.translated_content|length %}
-          {% module 'language-switcher' path='@hubspot/language_switcher',
-                label='Language switcher',
-                display_mode='localized'
-              %}
-          {{ locale_name(locale) }}
-          {% endif %}
-          {% module 'site_search' path='@hubspot/search_input',
-            label='Search'
-          %}
-          {# End header navigation row one #}
-
-          {# Header navigation row two #}
           <div class="header--toggle header__navigation--toggle"></div>
-          {% if content.translated_content|length %}
-          <div class="header--toggle header__language-switcher--toggle"></div>
-          {% endif %}
           <div class="header--toggle header__search--toggle"></div>
           <div class="header__close--toggle"></div>
-          {% module 'navigation-primary' path='../../modules/menu-section',
-            label='Primary navigation'
-          %}
-          {# End header navigation row two #}
-
-          {# End header navigation column #}
         </div>
       </div>
     </div>

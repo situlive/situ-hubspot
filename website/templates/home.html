@@ -9,14 +9,125 @@
 {% block body %}
 <main>
 
-  <section class="section section-dark">
+  <section class="section section-dark hero">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
           <h1>Retail: The Quantum Shift</h1>
         </div>
+        <div class="col d-flex flex-column justify-content-end">
+          <div>
+            <a class="btn btn-secondary float-right mb-3" href="#form">Jump to form</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-grey">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col">
-          <a class="btn btn-secondary float-right">Jump to form</a>
+          <h2>Bringing products to life with a radical new approach to retail.</h2>
+          <p>Brands are frustrated. Outdated retail models provide little control over how their products are presented.
+            They can’t effectively engage directly with new consumers, or really demonstrate how they will make their
+            lives better.</p>
+          <p>But things are about to change. Retail: The Quantum Shift explores the problems facing brands in retail,
+            and how new approaches are changing the dynamic.</p>
+          <ul>
+            <li>The value of personal interactions</li>
+            <li>Competing for attention and interest</li>
+            <li>Providing genuine help and engagement</li>
+            <li>A new era of experiential retail</li>
+          </ul>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-container section-dark">
+    <div class="img-header"></div>
+    <div class="section section-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2>How can brands inspire loyalty and advocacy in a new retail environment?</h2>
+            <p>Making an impact and building brand love is about much more than adding a few bells and whistles to a
+              tired old retail formula.</p>
+            <p>This report gets to the heart of what motivates consumers and why brands need to take advantage of a new,
+              more experiential approach.</p>
+            <ul>
+              <li>Analysis of changing buyer behaviour</li>
+              <li>Overcoming the cost of reaching new customers</li>
+              <li>Opportunities for meaningful engagement and experiences</li>
+              <li>A new approach to delivering the ‘wow’ factor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-jade" id="form">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+
+            {% dnd_module path='@hubspot/form' %}
+            {% end_dnd_module %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-grey">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>“Things are about to change. You could call it a renaissance.<br />An awakening.<br />A quantum shift that
+            will redefine retail.”</h4>
+          <p>— Warren Richmond - CEO, Situ Live</p>
+
+          <!-- Image -->
+
+        </div>
+        <div class="col-md-8">
+
+          <div class="divide">
+            <h2>Retail is broken, but it’s not dead yet.</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p><strong>All too often, cutting edge technology products languish on shelves, lost in the shuffle and
+                    rarely even switched on.</strong></p>
+                <p><strong>The result? </strong></p>
+              </div>
+              <div class="col-md-6">
+                <p>Consumers have no idea how the products they buy could make their lives better. They have no affinity
+                  for the brands they do buy, and little awareness of the ones they don’t.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="divide">
+            <h2>Retail is broken, but it’s not dead yet.</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p><strong>We know people respond to passionate explanations and demonstrations. And we know they want
+                    to be excited by new experiences.</strong></p>
+              </div>
+              <div class="col-md-6">
+                <p>Now is the time for innovative brands to embrace this reality and leverage a new world of retail.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-secondary">Download ebook</button>
         </div>
       </div>
     </div>
