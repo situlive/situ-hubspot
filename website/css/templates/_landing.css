@@ -1,8 +1,14 @@
 .hero {
-    padding-top: 180px !important;
+    padding-top: 120px !important;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/Situ-Live-Slinky-RGB-Blue-1.png');
+}
+
+@media screen and (min-width: 992px) {
+    .hero {
+        padding-top: 180px !important;
+    }
 }
 
 .hero h1 {

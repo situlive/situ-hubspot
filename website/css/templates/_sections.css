@@ -1,6 +1,13 @@
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 .section-dark {
