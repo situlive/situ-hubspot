@@ -46,22 +46,22 @@
 
 .form-container .section-jade .container,
 .form-container .section-jade .container-fluid {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .form-container .section-jade .container>.row:not(.no-gutters),
 .form-container .section-jade .container-fluid>.row:not(.no-gutters) {
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -40px;
+    margin-right: -40px;
 }
 
 .form-container .section-jade .container>.row:not(.no-gutters)>.col:not(.no-gutters),
 .form-container .section-jade .container>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters),
 .form-container .section-jade .container-fluid>.row:not(.no-gutters)>.col:not(.no-gutters),
 .form-container .section-jade .container-fluid>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -73,11 +73,20 @@
 
     .form-container .section-jade {
         padding-top: 0;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         position: absolute;
         top: 0;
         right: 0;
         width: 500px;
         transform: translateX(-6vw);
     }
+}
+
+.divide {
+    border-top: 1px solid #A5A5A6;
+    padding-top: 40px;
+}
+
+.container-fluid .divide:last-child {
+    margin-top: 16px;
 }
