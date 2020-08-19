@@ -34,7 +34,7 @@
             lives better.</p>
           <p>But things are about to change. Retail: The Quantum Shift explores the problems facing brands in retail,
             and how new approaches are changing the dynamic.</p>
-          <ul>
+          <ul class="styled">
             <li>The value of personal interactions</li>
             <li>Competing for attention and interest</li>
             <li>Providing genuine help and engagement</li>
@@ -45,28 +45,8 @@
 
           <div class="d-flex justify-content-center">
 
-            <div class="card">
-              <div class="ribbon"></div>
-
-              <div class="card-header">
-                <b>Urgent</b>
-              </div>
-
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="250" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-                aria-label="Placeholder: Responsive image">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                  dy=".3em">Responsive image</text>
-              </svg>
-
-              <div class="card-body">
-                <h3 class="card-title">Card title</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-              </div>
-            </div>
+            <img class="img-fluid" src="https://f.hubspotusercontent00.net/hubfs/6501007/SituLive-Cover-right.png"
+              alt="" />
 
           </div>
 
@@ -80,13 +60,13 @@
     <div class="section section-white">
       <div class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-xl-8">
             <h2>How can brands inspire loyalty and advocacy in a new retail environment?</h2>
             <p>Making an impact and building brand love is about much more than adding a few bells and whistles to a
               tired old retail formula.</p>
             <p>This report gets to the heart of what motivates consumers and why brands need to take advantage of a new,
               more experiential approach.</p>
-            <ul>
+            <ul class="styled">
               <li>Analysis of changing buyer behaviour</li>
               <li>Overcoming the cost of reaching new customers</li>
               <li>Opportunities for meaningful engagement and experiences</li>
@@ -102,8 +82,10 @@
         <div class="row">
           <div class="col">
 
-            {% dnd_module path='@hubspot/form' %}
-            {% end_dnd_module %}
+            {% form "my_form" form_to_use='954a7de9-5538-4b24-a5ec-55ed2feb2998' %}
+
+
+
 
           </div>
         </div>
@@ -121,28 +103,8 @@
 
           <div class="d-flex justify-content-center">
 
-            <div class="card mb-4">
-              <div class="ribbon"></div>
-
-              <div class="card-header">
-                <b>Urgent</b>
-              </div>
-
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="250" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-                aria-label="Placeholder: Responsive image">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                  dy=".3em">Responsive image</text>
-              </svg>
-
-              <div class="card-body">
-                <h3 class="card-title">Card title</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-              </div>
-            </div>
+            <img class="img-fluid" src="https://f.hubspotusercontent00.net/hubfs/6501007/SituLive-Cover-left.png"
+              alt="" />
 
           </div>
 
@@ -183,7 +145,7 @@
       </div>
       <div class="row">
         <div class="col-lg-5 col-xl-4">
-          <button class="btn btn-secondary btn-block">Download ebook</button>
+          <a class="btn btn-secondary btn-block" href="#form">Download ebook</a>
         </div>
       </div>
     </div>

@@ -24,26 +24,60 @@
     background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/Situ-Live-Slinky-RGB-Blue-1.png');
 }
 
+.form-container h1 {
+    font-size: 22px !important;
+    color: #081d4d !important;
+}
+
+@media screen and (min-width: 992px) {
+    .form-container h1 {
+        font-size: 30px !important;
+    }
+}
+
 .form-container .img-header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/holding-image.jpg');
+    background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/book%20spreads%20mock%20up.png');
     min-height: 500px;
 }
 
-@media screen and (min-width: 1418px) {
+.form-container .section-jade .container,
+.form-container .section-jade .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-container .section-jade .container>.row:not(.no-gutters),
+.form-container .section-jade .container-fluid>.row:not(.no-gutters) {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.form-container .section-jade .container>.row:not(.no-gutters)>.col:not(.no-gutters),
+.form-container .section-jade .container>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters),
+.form-container .section-jade .container-fluid>.row:not(.no-gutters)>.col:not(.no-gutters),
+.form-container .section-jade .container-fluid>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters) {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 1200px) {
 
     .form-container .section,
     .form-container .img-header {
-        width: 1068px;
+        width: 80vw;
     }
 
     .form-container .section-jade {
+        padding-top: 0;
+        padding-bottom: 20px;
         position: absolute;
         top: 0;
-        left: 818px;
+        right: 0;
         width: 500px;
+        transform: translateX(-6vw);
     }
 }

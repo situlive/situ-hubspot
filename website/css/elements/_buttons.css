@@ -14,7 +14,11 @@
   }
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary.active {
   background-color: #00c8b7;
   border-color: #00c8b7;
   color: white;
