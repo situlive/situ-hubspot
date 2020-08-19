@@ -5,7 +5,7 @@ form {
 }
 
 .hs-form-field {
-  margin-bottom: 1.4rem;
+  margin-bottom: 16px;
 }
 
 /* Labels */
@@ -13,9 +13,9 @@ form {
 form label {
   color: #33475B;
   display: block;
-  font-size: 0.875rem;
+  font-size: 18px;
   padding-top: 0;
-  margin-bottom: 0.35rem;
+  margin-bottom: 4px;
   text-align: left;
   width: auto;
 }
@@ -47,7 +47,7 @@ textarea {
   color: white !important;
   display: inline-block;
   font-size: 18px;
-  padding: 0.7rem;
+  padding: 13px;
   width: 100%;
 }
 
@@ -206,30 +206,27 @@ form .header {
 
 form input[type=submit],
 form .hs-button {
+  border-radius: 25px;
+  padding: 0 40px !important;
+  line-height: 46px !important;
+  border-width: 2px !important;
+  font-family: 'EuclidTriangleSemiBold' !important;
+  font-size: 24px !important;
+  width: 100%;
+  display: block;
+
   background-color: #494A52;
   border: 1px solid #494A52;
-  border-radius: 6px;
   color: #FFF;
   cursor: pointer;
-  display: inline-block;
-  font-size: 0.92rem;
-  font-weight: normal;
   height: auto;
-  line-height: 1.1;
   margin: 0;
   padding: 15px 53px;
   position: relative;
   text-align: center;
-
-    {
-    # default "Get Free Widget"form (renders when no form is passed to the form HubL tag) is an anchor (a.hs-button) rather than a real input,
-    so it needs explcit css to avoid link styling #
-  }
-
   text-decoration: none;
   transition: all 0.15s linear;
   white-space: normal;
-  width: auto;
   word-break: break-word;
 }
 
