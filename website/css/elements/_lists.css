@@ -1,0 +1,31 @@
+.styled {
+    font-family: "SituLiveBold";
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    white-space: pre-line;
+}
+
+.styled li {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    margin-right: auto;
+    padding: 10px 0 10px 30px;
+    position: relative;
+}
+
+.styled li:last-child {
+    border-bottom: none;
+}
+
+.styled li::before {
+    border: .3125rem solid #20bca9;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

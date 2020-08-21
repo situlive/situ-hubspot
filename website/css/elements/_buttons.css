@@ -1,0 +1,25 @@
+.btn {
+  border-radius: 25px !important;
+  padding: 0 40px !important;
+  line-height: 46px !important;
+  border-width: 2px !important;
+  font-family: 'EuclidTriangleSemiBold' !important;
+  font-size: 24px !important;
+}
+
+@media screen and (max-width: 481px) {
+  .btn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary.active {
+  background-color: #00c8b7;
+  border-color: #00c8b7;
+  color: white;
+}

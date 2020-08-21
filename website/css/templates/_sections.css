@@ -1,0 +1,40 @@
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.section-dark {
+    background-color: #081d4d;
+    color: white;
+}
+
+.section-jade {
+    background-color: #00c8b7;
+    color: white;
+}
+
+.section-grey {
+    background-color: #f6f6f6;
+    color: #081d4d;
+}
+
+.section-white {
+    background-color: white;
+    color: #081d4d;
+}
+
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+}

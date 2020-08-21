@@ -1,0 +1,68 @@
+.footer .section-dark {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.footer .small {
+  width: 80%;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.footer .logo-container {
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.footer .logo>svg {
+  height: 36px;
+}
+
+.footer h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  background: none;
+  background-clip: inherit;
+  -webkit-text-fill-color: inherit;
+}
+
+.footer a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer hr {
+  height: 2px;
+  background-image: linear-gradient(90deg, transparent, transparent 25%, #081d4d 25%, #081d4d 100%), linear-gradient(90deg, #00c8b7, #b24ebe, #ff4438);
+  background-size: 8px 3px, 100% 2px;
+  border: none;
+  margin-top: 36px;
+  margin-bottom: 60px;
+}
+
+.footer ul li a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .footer ul {
+    flex: 0 1 auto;
+  }
+}
+
+.footer ul li {
+  flex: 0 1 auto;
+}
+
+.footer .logomark {
+  width: 40px;
+}
