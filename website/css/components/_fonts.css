@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "SituLiveBold";
+    src: url("../../fonts/situlive-bold.woff2") format("woff2"),
+        url("../../fonts/situlive-bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SituLiveLight";
+    src: url("../../fonts/situlive-light.woff2") format("woff2"),
+        url("../../fonts/situlive-light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidTriangleLight";
+    src: url("../../fonts/euclidtriangle-light.woff2") format("woff2"),
+        url("../../fonts/euclidtriangle-light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidTriangleLightItalic";
+    src: url("../../fonts/euclidtriangle-lightitalic.woff2") format("woff2"),
+        url("../../fonts/euclidtriangle-lightitalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "EuclidTriangleSemiBold";
+    src: url("../../fonts/euclidtriangle-semibold.woff2") format("woff2"),
+        url("../../fonts/euclidtriangle-semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidTriangleSemiBoldItalic";
+    src: url("../../fonts/euclidtriangle-semibolditalic.woff2") format("woff2"),
+        url("../../fonts/euclidtriangle-semibolditalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+}
