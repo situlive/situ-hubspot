@@ -94,7 +94,7 @@ form .inputs-list {
   list-style: none;
 }
 
-.inputs-list > li {
+.inputs-list>li {
   display: block;
   margin: 0 0 16px;
   padding: 0;
@@ -180,8 +180,8 @@ form .header {
 
 /* GDPR */
 
-.legal-consent-container .hs-form-booleancheckbox-display > span,
-.legal-consent-container .hs-form-booleancheckbox-display > span p {
+.legal-consent-container .hs-form-booleancheckbox-display>span,
+.legal-consent-container .hs-form-booleancheckbox-display>span p {
   font-size: 0.875rem;
   margin-left: 1rem !important;
 }
@@ -208,26 +208,30 @@ form input[type="submit"],
 form .hs-button {
   border-radius: 25px;
   padding: 0 40px !important;
-  line-height: 46px !important;
-  border-width: 2px !important;
-  font-family: "EuclidTriangleSemiBold" !important;
-  font-size: 24px !important;
-  width: 100%;
-  display: block;
+  line-height: 46px;
+  border-width: 2px;
+  font-family: 'EuclidTriangleSemiBold';
+  font-size: 24px;
 
-  background-color: #494a52;
-  border: 1px solid #494a52;
-  color: #fff;
-  cursor: pointer;
-  height: auto;
-  margin: 0;
-  padding: 15px 53px;
-  position: relative;
+  display: block;
+  width: 100%;
+  font-weight: 400;
   text-align: center;
-  text-decoration: none;
-  transition: all 0.15s linear;
-  white-space: normal;
-  word-break: break-word;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: color .15s
+}
+
+
+@media screen and (max-width: 481px) {
+
+  form input[type="submit"],
+  form .hs-button {
+    font-size: 18px !important;
+  }
 }
 
 form input[type="submit"]:hover,
