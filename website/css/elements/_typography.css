@@ -88,6 +88,15 @@ h6 {
   margin: 0 0 1.4rem;
 }
 
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+h6.white {
+  color: white !important;
+}
+
 h1 {
   font-size: 42px !important;
 }
