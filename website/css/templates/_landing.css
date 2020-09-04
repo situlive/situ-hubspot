@@ -44,27 +44,27 @@
     min-height: 500px;
 }
 
-.form-container .section-jade .container,
-.form-container .section-jade .container-fluid {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+@media screen and (min-width: 1200px) {
 
-.form-container .section-jade .container>.row:not(.no-gutters),
-.form-container .section-jade .container-fluid>.row:not(.no-gutters) {
-    margin-left: -40px;
-    margin-right: -40px;
-}
+    .form-container .section-jade .container,
+    .form-container .section-jade .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
-.form-container .section-jade .container>.row:not(.no-gutters)>.col:not(.no-gutters),
-.form-container .section-jade .container>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters),
-.form-container .section-jade .container-fluid>.row:not(.no-gutters)>.col:not(.no-gutters),
-.form-container .section-jade .container-fluid>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters) {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    .form-container .section-jade .container>.row:not(.no-gutters),
+    .form-container .section-jade .container-fluid>.row:not(.no-gutters) {
+        margin-left: -40px;
+        margin-right: -40px;
+    }
 
-@media screen and (min-width: 1199px) {
+    .form-container .section-jade .container>.row:not(.no-gutters)>.col:not(.no-gutters),
+    .form-container .section-jade .container>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters),
+    .form-container .section-jade .container-fluid>.row:not(.no-gutters)>.col:not(.no-gutters),
+    .form-container .section-jade .container-fluid>.row:not(.no-gutters)>[class*='col-']:not(.no-gutters) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
     .form-container .section,
     .form-container .img-header {
@@ -80,11 +80,22 @@
         width: 500px;
         transform: translateX(-6vw);
     }
+
+    .divide {
+        border-top: 1px solid #A5A5A6;
+        padding-top: 40px;
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+    }
 }
 
 .divide {
-    border-top: 1px solid #A5A5A6;
-    padding-top: 40px;
+    border-bottom: 1px solid #A5A5A6;
+    margin-bottom: 40px;
+}
+
+.divide.no-border {
+    border-bottom: none;
 }
 
 .container-fluid .divide:last-child {
