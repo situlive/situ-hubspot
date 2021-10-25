@@ -7,6 +7,10 @@
   font-size: 24px !important;
 }
 
+.btn-customer1 {
+  font-size: 18px !important;
+}
+
 @media screen and (max-width: 481px) {
   .btn {
     width: 100%;

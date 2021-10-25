@@ -18,7 +18,7 @@
 .form-container {
     position: relative;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/Situ-Live-Slinky-RGB-Blue-1.png');
@@ -37,7 +37,7 @@
 
 .form-container .img-header {
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-image: url('https://f.hubspotusercontent00.net/hubfs/6501007/book%20spreads%20mock%20up.png');

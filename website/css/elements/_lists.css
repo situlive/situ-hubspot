@@ -29,3 +29,55 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+ul.terms {
+  list-style-type:none; 
+  padding-left:0;
+}
+
+ol.terms {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+.terms li {
+  padding-bottom: 5px;
+}
+
+ol.terms>li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol.terms>li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 2em;
+}
+
+ol.terms>li ol.terms>li {
+  margin: 0;
+}
+
+ol.terms>li ol.terms>li:before {
+  content: counters(item, ".") ". ";
+}
+
+ol.terms>li ol.terms>li ol.terms>li {
+  list-style: none;
+}
+
+ol.terms>li ol.terms>li ol.terms>li:before {
+  content: "(" counter(item, lower-alpha) ") ";
+}
+
+    ol.terms>li ol.terms>li ol.terms>li ol.terms>li {
+        list-style: none;
+    }
+
+    ol.terms>li ol.terms>li ol.terms>li ol.terms>li:before {
+        content: "(" counter(item, lower-roman) ") ";
+    }

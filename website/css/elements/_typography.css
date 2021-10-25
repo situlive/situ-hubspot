@@ -199,3 +199,17 @@ sub {
 .disable-focus-styles :focus {
   outline: none;
 }
+
+/* Terms specific */
+.terms {
+  word-break: normal!important;
+}
+
+.terms h1,
+.terms h2,
+.terms h3,
+.terms h4,
+.terms h5,
+.terms h6 {
+  margin: 0 0 0.5rem;
+}
